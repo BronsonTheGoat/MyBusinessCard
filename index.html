@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="description" content="[My online business-card]">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Business Card</title>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Courgette|Patrick+Hand|Righteous" rel="stylesheet">
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+  <script src="javascript.js"></script>
+</head>
+<body>
+  <div class="business-card">
+    <div class="about-me">
+      <div class="porfile-photo">
+        <img src="/assets/avatar.jpg">
+      </div>
+      <div class="headline">
+        <h1>Sebestyén Zoltán</h1>
+        <h2>Webdesigner</h2>
+        <p>from</p>
+        <h3>Tab, Hungary</h3>
+      </div>
+      <div class="content">
+        <p>I love to... do a lot of things but now I have to write something here to fill the place and see what is the amountof text that I can place here to introduce myself. That was me. I'm pleased to meet you.</p>
+        <button id="btn1">Contact me</button>
+      </div>
+    </div>
+  </div>
+  <div class="contact">
+    <div class="letstalk">
+      <h1>Message me</h1>
+      <div class="message-me">
+        <form action="mail.php" method="post">
+          <input type="text" name="Name" placeholder="Name" autocomplete="off"/>
+          <input type="email" name="email" placeholder="Email" autocomplete="off"/>
+          <input type="text" name="Subject" placeholder="Subject" autocomplete="off"" list="topics"/>
+            <datalist id="topics">
+              <option value="Web Programing">
+              <option value="3D Modelling">
+              <option value="Crafting">
+            </datalist>
+          <textarea placeholder="Message"></textarea>
+          <input id="send" type="submit" name="submit" value="send">
+        </form>
+      </div>
+      <button id="btn2">About me</button>
+     </div>
+  </div>
+</body>
+</html>
