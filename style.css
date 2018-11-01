@@ -11,7 +11,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #fff;
+  background: url(assets/nature_rock.jpg) no-repeat;
   height: 100vh;
 }
 
@@ -23,7 +23,7 @@ body {
 
 .business-card {
   float:left;
-  background: url(/assets/nature_rock.jpg) no-repeat;
+  background: url(assets/nature_rock.jpg) no-repeat;
   background-size: cover;
   width: 100vw; /*originally 100vw*/
   height: 100vh;
@@ -123,7 +123,7 @@ img {
 ===========================*/
 
 .contact {
-  background: url(/assets/nature_landscape.jpg) no-repeat;
+  background: url(assets/nature_landscape.jpg) no-repeat;
   background-size: cover;
   width: 0vw; /*originally 0vw*/
   height: 100vh;
@@ -173,7 +173,7 @@ h1 {
 }
 
 ::-webkit-input-placeholder {
-  text-align: center;
+  text-align: left;
   color: #fff;
   text-shadow: #000 2px 2px 5px;
 }
